@@ -1,0 +1,27 @@
+{
+  "name": "discussionBoard",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgehsin/discussionBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgehsin/discussionBoard/issues"
+  },
+  "homepage": "https://github.com/georgehsin/discussionBoard#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}

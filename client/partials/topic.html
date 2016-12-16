@@ -1,0 +1,15 @@
+<h1>TOPIC</h1>
+{{topic._users.name}} posted a topic:
+<h3>{{topic.topic}}</h3>
+<p>{{topic.description}}</p>
+
+<p>Post your Answer Here...</p>
+<form ng-submit='addAnswer()'>
+	<textarea ng-model='newanswer.text'></textarea>
+	<input type="submit" name="submit">
+</form>
+
+<div ng-repeat='post in posts.posts'>
+	<p>{{post.text}}</p>
+</div>
+{{posts}}
